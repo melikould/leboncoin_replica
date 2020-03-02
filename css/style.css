@@ -1,0 +1,1261 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-width: 320px;
+	max-width: 1200px;
+	height: auto;
+	margin: auto;
+	position: relative;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 575px) {
+
+	main .regions {
+		display: none;
+	}
+
+	header {
+		width: 100% !important;
+		height: 50px !important;
+	}
+
+	header nav {
+		width: 100% !important; 
+	}
+
+		#burger {
+			display: block !important;
+			width: 40px;
+			height: auto;
+			background-color: #fff;
+			z-index: 1;
+			float: left;
+			margin: 10px 0 0 10px;
+			padding: 0 10px !important;
+			cursor: pointer;
+		}
+
+		#burger div {
+			width: 32px;
+			height: 4px;			
+			margin: 5px auto;
+			border: 1px solid transparent;
+			border-radius: 10px;
+			background-color: #f56b2a;
+		}
+
+
+	header nav .logo {
+		width: 170px !important;
+		display: block !important;
+		float: none !important;
+		margin: 5px auto !important;
+	}
+
+	header nav .annonce, header nav .search, header nav .notifs {
+		display: none !important;
+	}
+
+	main .left {
+		width: 100% !important;
+	}
+
+	main .left h3 {
+		text-align: center;
+		font-size: 12px !important;
+	}
+
+	main .left .post {
+		width: 300px !important;
+		margin: 30px auto !important;
+		float: none !important;
+	}
+
+	main .left .post img {
+		margin-left: -25px !important;
+	}
+
+	main .left .post h3 {
+		font-size: 13px !important;
+	}
+
+	main .left .search-around {
+		width: 300px !important;
+		margin: -15px auto !important;
+		float: none !important;
+	}
+
+	main .left .search-around h3 {
+		font-size: 13px !important;
+		float: right !important;
+		margin: 10px 40px !important;
+	}
+
+	main .map {
+		float: left !important;
+		width: 100% !important;
+		margin: -10px 5px 0 5px !important;
+	}
+
+	main .regions-mob {
+		display: block !important;
+		width: 100% !important;
+		padding: 5px 10px 10px 10px;
+		margin-top: 30px;
+		float: left;
+	}
+
+	main .regions-mob select {
+		width: 100% !important;
+		height: 40px;
+		border: 1px solid #cecece;
+		border-radius: 5px;
+		cursor: pointer;
+		padding-left: 10px;
+		font-family: 'Open Sans', sans-serif !important;
+		font-size: 15px !important;
+		font-weight: 600 !important;
+	}
+
+	main .regions-mob select option {
+		font-family: 'Open Sans', sans-serif !important;
+		font-size: 15px !important;
+		font-weight: 400 !important;
+	}
+
+	main .outro {
+		height: auto !important;
+		float: left !important;
+		margin-bottom: 10px !important;
+	}
+
+	main .rubriques {
+		width: 100% !important;
+	}
+
+	#rubriques .first, #rubriques .second {
+		float: left !important;
+		width: 45% !important;
+	}
+
+	#rubriques .third{
+		display: block !important;
+		float: left !important;
+		width: 50% !important;
+		margin-top: -5px !important;
+	}
+
+	#rubriques .fourth {
+		float: left !important;
+		width: 43% !important;
+		margin-top: -5px !important;
+	}
+
+	#rubriques .first span, #rubriques .second span {
+		display: block !important;
+		width: 100% !important;
+		height: 1px !important;
+		background-color: #c4c4c4;
+	}
+
+	#rubriques .first span {
+		margin-top: 10px !important;
+	}
+
+	#rubriques .second span {
+		margin-top: 99px !important;
+	}
+
+
+
+	footer {
+		width: 100% !important;
+	}
+
+	footer .about, footer .stores, footer .infos, footer .solutions, footer .questions, footer .countries, footer .ending {
+		display: none !important;
+	}
+
+	footer hr {
+		display: none !important;
+	}
+
+	footer h3:last-child {
+		display: none !important;
+	}
+
+}
+
+
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+	
+
+	/*------------------------------------- HEADER PART -------------------------------------
+*/
+
+	main .regions {
+		display: none;
+	}
+
+	header {
+		width: 100% !important;
+		height: 50px !important;
+	}
+
+	header nav {
+		width: 100% !important; 
+	}
+
+		#burger {
+			display: block !important;
+			width: 40px;
+			height: auto;
+			background-color: #fff;
+			z-index: 1;
+			float: left;
+			margin: 10px 0 0 10px;
+			cursor: pointer;
+		}
+
+		#burger div {
+			width: 32px;
+			height: 4px;			
+			margin: 5px auto;
+			border: 1px solid transparent;
+			border-radius: 10px;
+			background-color: #f56b2a;
+		}
+
+
+	header nav .logo {
+		width: 170px !important;
+		display: block !important;
+		float: none !important;
+		margin: 5px auto !important;
+	}
+
+	header nav .annonce, header nav .search, header nav .notifs {
+		display: none !important;
+	}
+
+/*------------------------------------- HEADER PART (END) -------------------------------------
+*/
+
+
+/*------------------------------------- MAIN CONTENT -------------------------------------*/
+
+	main {
+		width: 100% !important;
+	}
+
+	main .left {
+		width: 100% !important;
+		margin: 15px !important;
+	}
+	
+	main .left .post {
+		width: 300px !important;
+		margin: 30px auto !important;
+		float: none !important;
+	}
+
+	main .left h3 {
+		text-align: center !important;
+		font-size: 14px !important;
+		margin: 10px auto !important;
+	}
+
+	main .left .post img {
+		margin-left: -10px !important;
+	}
+
+	main .left .post h3 {
+		font-size: 13px !important;
+		float: none !important;
+		padding: 10px 0 0 50px !important;
+	}
+
+	main .left img {
+		margin-left: 15px !important;
+	}
+
+	main .left .search-around {
+		width: 300px !important;
+		margin: -15px auto !important;
+		float: none !important;
+	}
+
+	main .left .search-around h3 {
+		font-size: 13px !important;
+		float: none !important;
+		margin: 10px 0 0 70px !important;
+	}
+
+	main .map {
+		float: left !important;
+		width: 100% !important;
+	}
+
+	main .regions-mob {
+		display: block !important;
+		width: 100% !important;
+		padding: 5px 10px 10px 10px;
+		margin-top: 30px;
+		float: left;
+	}
+
+	main .regions-mob select {
+		width: 100% !important;
+		height: 40px;
+		border: 1px solid #cecece;
+		border-radius: 5px;
+		cursor: pointer;
+		padding-left: 10px;
+		font-family: 'Open Sans', sans-serif !important;
+		font-size: 15px !important;
+		font-weight: 600 !important;
+	}
+
+	main .regions-mob select option {
+		font-family: 'Open Sans', sans-serif !important;
+		font-size: 15px !important;
+		font-weight: 400 !important;
+	}
+
+	main .outro {
+		margin: 15px 0 55px !important;
+		float: left !important;
+	}
+
+	main .rubriques {
+		width: 100% !important;
+	}
+
+	#rubriques .first, #rubriques .second {
+		float: left !important;
+		width: 48% !important;
+	}
+
+	#rubriques .third{
+		display: block !important;
+		float: left !important;
+		width: 50% !important;
+		margin-top: -5px !important;
+	}
+
+	#rubriques .fourth {
+		float: left !important;
+		width: 46% !important;
+		margin-top: -5px !important;
+	}
+
+	#rubriques .first span, #rubriques .second span {
+		display: block !important;
+		width: 100% !important;
+		height: 1px !important;
+		background-color: #c4c4c4;
+	}
+
+	#rubriques .first span {
+		margin-top: 10px !important;
+	}
+
+	#rubriques .second span {
+		margin-top: 99px !important;
+	}
+/*------------------------------------- MAIN CONTENT (END) -------------------------------------*/
+
+
+/*------------------------------------- FOOTER PART -------------------------------------*/
+
+	footer {
+		width: 100% !important;
+	}
+
+	footer .about, footer .stores, footer .infos, footer .solutions, footer .questions, footer .countries, footer .ending {
+		display: none !important;
+	}
+
+	footer hr {
+		display: none !important;
+	}
+
+	footer h3:last-child {
+		display: none !important;
+	}
+
+/*------------------------------------- FOOTER PART (END)-------------------------------------*/
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+/*------------------------------------- HEADER PART -------------------------------------
+*/
+	main .regions {
+		display: none;
+	}
+
+	header {
+		width: 100% !important;
+		height: 50px !important;
+	}
+
+	header nav {
+		width: 100% !important; 
+	}
+
+		#burger {
+			display: block !important;
+			width: 40px;
+			height: auto;
+			background-color: #fff;
+			z-index: 1;
+			float: left;
+			margin: 10px 0 0 10px;
+			cursor: pointer;
+		}
+
+		#burger div {
+			width: 32px;
+			height: 4px;			
+			margin: 5px auto;
+			border: 1px solid transparent;
+			border-radius: 10px;
+			background-color: #f56b2a;
+		}
+
+
+	header nav .logo {
+		width: 170px !important;
+		display: block !important;
+		float: none !important;
+		margin: auto;
+	}
+
+	header nav .annonce, header nav .search, header nav .notifs {
+		display: none !important;
+	}
+
+/*------------------------------------- HEADER PART (END) -------------------------------------
+*/
+
+
+/*------------------------------------- MAIN CONTENT -------------------------------------*/
+
+	main {
+		width: 100%;
+	}
+
+	main .left {
+		width: 340px !important;
+		float: left !important;
+	}
+
+	main .left .post img {
+		margin-left: -25px !important;
+	}
+
+	main .left .post h3 {
+		float: none !important;
+		margin: 10px 0 0 30px !important;
+	}
+
+	main .left .search-around img {
+		margin-left: -2px !important;
+	}
+
+	main .map {
+		width: 380px !important;
+		margin: 0 10px !important;
+		float: right !important;
+	}
+
+	main .regions-mob {
+		display: block !important;
+		width: 100% !important;
+		padding: 5px 10px 10px 10px;
+	}
+
+	main .regions-mob select {
+		width: 100% !important;
+		height: 45px;
+		border: 1px solid #cecece;
+		border-radius: 5px;
+		cursor: pointer;
+		padding-left: 10px;
+		font-family: 'Open Sans', sans-serif !important;
+		font-size: 15px !important;
+		font-weight: 600 !important;
+	}
+
+	main .regions-mob select option {
+		font-family: 'Open Sans', sans-serif !important;
+		font-size: 15px !important;
+		font-weight: 400 !important;
+	}
+
+	main .outro {
+		width: 100%;
+		padding: 10px 10px 40px 10px;
+		margin: 10px 0 40px 0;
+	}
+
+	main .rubriques {
+		width: 100% !important;
+	}
+
+	#rubriques .first, #rubriques .second {
+		float: left !important;
+		width: 48% !important;
+	}
+
+	#rubriques .third{
+		display: block !important;
+		float: left !important;
+		width: 50% !important;
+		margin-top: -5px !important;
+	}
+
+	#rubriques .fourth {
+		float: left !important;
+		width: 46% !important;
+		margin-top: -5px !important;
+	}
+
+	#rubriques .first span, #rubriques .second span {
+		display: block !important;
+		width: 100% !important;
+		height: 1px !important;
+		background-color: #c4c4c4;
+	}
+
+	#rubriques .first span {
+		margin-top: 10px !important;
+	}
+
+	#rubriques .second span {
+		margin-top: 99px !important;
+	}
+
+/*------------------------------------- MAIN CONTENT (END) -------------------------------------*/
+
+
+
+/*------------------------------------- FOOTER PART -------------------------------------*/
+
+	footer {
+		width: 100% !important;
+	}
+
+	footer .about, footer .stores, footer .infos, footer .solutions, footer .questions, footer .countries, footer .ending {
+		display: none !important;
+	}
+
+	footer hr {
+		display: none !important;
+	}
+
+	footer h3:last-child {
+		display: none !important;
+	}
+
+/*------------------------------------- FOOTER PART (END)-------------------------------------*/
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+/*------------------------------------- HEADER PART -------------------------------------
+*/
+
+	#burger {
+		display: none;
+	}
+
+	.regions-mob {
+		display: none;
+	}
+
+	header nav .logo {
+		width: 150px !important;
+	}
+
+	header nav .annonce {
+		width: 200px !important;
+	}
+
+	header nav .annonce h3 {
+		font-size: 13px !important;
+		margin-right: 15px !important;
+		margin-top: 10px !important;
+	}
+
+	header nav .search {
+		width: 120px !important;
+		margin-left: 25px !important;
+	}
+
+	header nav .search h3 {
+		font-size: 15px !important;
+	}
+
+	header nav .notifs {
+		width: 370px !important;
+	}
+
+/*------------------------------------- HEADER PART (END)-------------------------------------
+*/
+
+
+/*------------------------------------- MAIN CONTENT -------------------------------------*/
+
+	main .left {
+		width: 34% !important;
+	}
+
+	main .left .post, main .left .search-around {
+		width: 270px !important;
+	}
+
+	main .left .post img {
+		margin-left: -35px;
+	}
+
+	main .left .post h3 {
+		margin: 10px 45px !important;
+		float: right !important;
+	}
+
+	main .left .search-around img {
+		margin-left: -15px !important;
+	}
+
+	main .outro {
+		margin: 0 8px 0 8px;
+	}
+
+	#rubriques {
+		width: 100% !important;
+	}
+
+	#rubriques .first, #rubriques .second, #rubriques .third, #rubriques .fourth {
+		width: 23.9% !important;
+	}
+
+	#rubriques .first span, #rubriques .second span {
+		display: none;
+	}
+
+/*------------------------------------- MAIN CONTENT (END)-------------------------------------*/
+
+
+
+/*------------------------------------- FOOTER PART -------------------------------------*/
+
+	footer {
+		width: 100% !important;
+	}
+
+	footer .about, footer .infos, footer .solutions, footer .questions {
+		width: 22.9% !important;
+	}
+
+	footer .infos ul li:nth-child(2), footer .questions ul li:nth-child(2) {
+		line-height: 20px !important;
+		margin: 5px 0 5px 0 !important;
+	}
+
+	footer .ending {
+		width: 100% !important;
+	}
+
+	footer .ending ul li:last-child {
+		display: inline-block !important;
+	}
+/*------------------------------------- FOOTER PART (END)-------------------------------------*/
+
+}
+
+
+/*------------------------------------- HEADER PART -------------------------------------
+*/
+
+	#burger {
+		display: none;
+	}
+
+	.regions-mob {
+		display: none;
+	}
+
+	header {
+		width: 100%;
+		height: 70px;
+		box-shadow: 0 4px 4px -2px #cecece;
+	}
+
+	header nav {
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+
+	header nav .logo {
+		width: 15%;
+		height: 50px;
+		background-image: url(../img/leboncoin.png);
+		background-position: center;
+		background-size: 100%;
+		float: left;
+		margin-top: 10px;
+		cursor: pointer;
+	}
+
+	header nav .annonce {
+		width: 20%;
+		height: 40px;
+		background-color: #f56b2a;
+		float: left;
+		margin-top: 15px;
+		margin-left: 15px;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+
+	header nav .annonce:hover {
+		background-color: #c0562a;
+		transition: 0.5s;
+	}
+
+	header nav .annonce img {
+		width: 24px;
+		height: 24px;
+		float: left;
+		margin-top: 9px;
+		margin-left: 15px;
+	}
+
+	header nav .annonce h3 {
+		float: right;
+		margin-top: 10px;
+		margin-right: 25px;
+		color: #fff;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 15px;
+		font-weight: 600;
+	}
+
+	header nav .search {
+		width: 11%;
+		height: 50px;
+		float: left;
+		margin-top: 10px;
+		margin-left: 15px;
+		cursor: pointer;
+	}
+
+	header nav .search:after {
+		content: "";
+		display: block;
+		margin: 16px auto;
+		height: 3px;
+		width: 0;
+		transition: width .5s ease, background-color .5s ease;
+	}
+
+	header nav .search:hover:after {
+		width: 100%;
+		background-color: #f56b2a;
+	}
+
+	header nav .search img {
+		width: 24px;
+		height: 24px;
+		margin-top: 13px;
+	}
+
+	header nav .search h3 {
+		float: right;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 1em;
+		font-weight: 600;
+		margin-right: 5px;
+		margin-top: 15px;
+	}
+
+	header nav .notifs {
+		width: 32%;
+		height: 50px;
+		float: right;
+	}
+
+	header nav .notifs div {
+		display: inline-block;
+		margin: 15px 0 0 25px;
+		cursor: pointer;
+	}
+
+	header nav .notifs div:after {
+		content: "";
+		display: block;
+		margin: 6px auto;
+		height: 3px;
+		width: 0;
+		transition: width .5s ease, background-color .5s ease;
+	}
+
+	header nav .notifs div:hover:after {
+		width: 100%;
+		background-color: #f56b2a;
+	}
+
+	header nav .notifs div img {
+		width: 24px;
+		height: 24px;
+		display: block;
+		margin: 0 auto 5px;
+	}
+
+	header nav .notifs .recherches span, header nav .notifs .favoris span, header nav .notifs .messages span, header nav .notifs .login span {
+		display: block;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+		font-size: 12px;
+	}
+
+/*------------------------------------- HEADER PART (END) -------------------------------------*/
+
+
+/*------------------------------------- MAIN CONTENT -------------------------------------*/
+
+	main {
+		background-color: #FAFAFA;
+		min-width: 320px;
+		max-width: 1200px;
+		width: 100%;
+	}
+
+	main .left {
+		width: 34%;
+		float: left;
+		margin: 0 0 0 10px;
+	}
+
+	main .left h3 {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 15px;
+		margin-top: 30px;
+	}
+
+	main .left h3 span {
+		color: #f56b2a;
+	}
+
+	main .left .post {
+		width: 85%;
+		height: 40px;
+		background-color: #4183d7;
+		float: left;
+		margin-top: 40px;
+		border-radius: 5px;
+		cursor: pointer;
+		position: relative;
+	}
+
+	main .left .post:hover {
+		background-color: #336699;
+		transition: 0.5s;
+	}
+
+	main .left .post img {
+		width: 20px;
+		height: 20px;
+		position: absolute;
+		top: 25%;
+		left: 28%;
+	}
+
+	main .left .post h3 {
+		margin-top: 10px;
+		margin-left: 37%;
+		float: left;
+		color: #fff;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 14px;
+		font-weight: 600;
+		text-align: center;
+	}
+
+	main .left .search-around {
+		width: 85%;
+		height: 40px;
+		background-color: #fff;
+		float: left;
+		margin-top: 20px;
+		border-radius: 5px;
+		border: 1px solid #4183d7;
+		cursor: pointer;
+		position: relative;
+	}
+
+	main .left .search-around:hover {
+		background-color: #e6ebf1;
+		transition: 0.5s;
+	}
+
+	main .left .search-around img {
+		width: 20px;
+		height: 20px;
+		position: absolute;
+		top: 25%;
+		left: 20%;
+	}
+
+	main .left .search-around h3 {
+		margin-top: 10px;
+		margin-left: 30%;
+		float: left;
+		color: #4183d7;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 14px;
+		font-weight: 600;
+		text-align: center;
+	}
+
+	main .map {
+		background-image: url(../img/map.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+		width: 40%;
+		height: 500px;
+		float: left;
+		margin-top: 30px;
+	}
+
+	main .regions {
+		float: right;
+		margin: 30px 10px 30px 0;
+	}
+
+	main .regions ul li {
+		list-style-type: none;
+		line-height: 23px;
+		text-align: right;
+		margin: 0 0 0 10px;
+	}
+
+	main .regions ul li a {
+		text-decoration: none;
+		color: #4183d7;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 15px;
+		font-weight: 600;
+	}
+
+	main .regions ul li a:hover {
+		color: #f56b2a;
+		transition: 0.2s;
+	}
+
+	main .outro {
+		float: none;
+		clear: both;
+		height: 80px;
+	}
+
+	main .outro p {
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 13px;
+		font-weight: 600;
+	}
+
+
+	#rubriques {
+		width: 100%;
+		background-color: #f4f6f7;
+		float: left;
+	}
+
+	#rubriques .first span, #rubriques .second span {
+		display: none;
+	}
+
+	#rubriques .first, #rubriques .second, #rubriques .third, #rubriques .fourth {
+		width: 24%;
+		float: left;
+		margin: 20px 0 20px 10px;
+	}
+
+	#rubriques .first h2, #rubriques .second h2, #rubriques .third h2, #rubriques .fourth h2 {
+		font-family: 'Open Sans', sans-serif;
+		text-transform: uppercase;
+		font-size: 12px;
+		font-weight: 600;
+		color: #4183d7;
+		cursor: pointer;
+	}
+
+	#rubriques .first h2:hover, #rubriques .first ul li:hover, #rubriques .second h2:hover, #rubriques .second ul li:hover, #rubriques .third h2:hover, #rubriques .third ul li:hover, #rubriques .fourth h2:hover, #rubriques .fourth ul li:hover {
+		color: #369;
+		text-decoration: underline;
+	}
+
+	#rubriques .first ul, #rubriques .second ul, #rubriques .third ul, #rubriques .fourth ul {
+		margin-top: 10px;
+	}
+
+	#rubriques .first ul li, #rubriques .second ul li, #rubriques .third ul li, #rubriques .fourth ul li {
+		list-style-type: none;
+		line-height: 20px;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 13px;
+		color: #4183d7;
+		cursor: pointer;
+	} 
+
+	#rubriques .first hr, #rubriques .second hr, #rubriques .third hr, #rubriques .fourth hr {
+		margin: 10px 0 10px 0;
+		background-color: #c4c4c4;
+		height: 2px;
+		opacity: 0.5;
+	}
+
+/*------------------------------------- MAIN CONTENT (END) -------------------------------------*/
+
+
+
+/*------------------------------------- FOOTER PART -------------------------------------*/
+
+	footer {
+		min-width: 320px;
+		max-width: 1200px;
+		width: 100%;
+		background-color: #474747;
+		float: left;
+	}
+
+	footer .about, footer .infos, footer .solutions, footer .questions {
+		width: 23%;
+		float: left;
+		margin: 20px 0 30px 20px;
+	}
+
+	footer .about h2, footer .infos h2, footer .solutions h2, footer .questions h2 {
+		font-family: 'Open Sans', sans-serif;
+		text-transform: uppercase;
+		color: #fff;
+		font-size: 14px;
+		font-weight: 600;
+		margin-top: 20px;
+	}
+
+	footer .about h2:first-child, footer .infos h2:first-child, footer .solutions h2:first-child, footer .questions h2:first-child {
+		margin-top: 0;
+	}
+
+	footer .about hr, footer .infos hr, footer .solutions hr, footer .questions hr {
+		margin: 10px 0 10px 0;
+		background-color: #fff;
+		height: 1px;
+		opacity: 0.5;
+	}
+
+	footer .about ul, footer .infos ul, footer .solutions ul, footer .questions ul {
+		margin-top: 10px;
+	}
+
+	footer .about ul li, footer .infos ul li, footer .solutions ul li, footer .questions ul li{
+		list-style-type: none;
+		line-height: 30px;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 13px;
+		color: #fff;
+		cursor: pointer;
+	}
+
+	footer .about ul li:hover, footer .infos ul li:hover, footer .solutions ul li:hover, footer .questions ul li:hover {
+		text-decoration: underline;
+	}
+
+	footer .infos ul li span, footer .solutions ul li span, footer .questions ul li span{
+		display: block;
+	}
+
+	footer .infos ul li:nth-child(2), footer .questions ul li:nth-child(2) {
+		line-height: 20px;
+		margin: 5px 0 5px 0;
+	}
+
+	footer .about .stores {
+		width: 100%;
+	}
+
+	footer .about .stores .appstore {
+		background-image: url(../img/appstore.png);
+		background-position: center;
+		background-size: 100%;
+		width: 45%;
+		height: 35px;
+		float: left;
+		cursor: pointer;
+	}
+
+	footer .about .stores .google {
+		background-image: url(../img/googleplay.png);
+		background-position: center;
+		background-size: 100%;
+		width: 45%;
+		height: 35px;
+		float: right;
+		cursor: pointer;
+	}
+
+	footer .countries {
+		width: 100%;
+		height: 45px;
+		background-color: #fcfcfc;
+		border-radius: 5px;
+		position: relative;
+		margin-top: 20px;
+		cursor: pointer;
+	}
+
+	footer .countries:hover {
+		background-color: #f4f6f7;
+		transition: 0.2s;
+	}
+
+	footer .countries ul {
+		float: left;
+		margin-left: 50px;
+	}
+
+	footer .countries ul li {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 600; 
+		color: #474747;
+		line-height: 0;
+		margin: 12px 0 0 10px;
+	}
+
+	footer .countries img:first-child {
+		width: 25px;
+		position: absolute;
+		top: -10px;
+		left: 20px;
+	}
+
+	footer .countries img {
+		width: 12px;
+		float: right;
+		margin-top: 20px;
+		margin-right: 20px;
+		cursor: pointer;
+	}
+
+	footer hr {
+		width: 100%;
+		height: 2px;
+		background-color: #fff;
+	}
+
+	footer .ending {
+		width: 100%;
+		margin: 20px 0 20px 0;
+	}
+
+	footer .ending ul {
+		text-align: center;
+	}
+
+	footer .ending ul li {
+		display: inline-block;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 15px;
+		color: #fff;
+		padding-left: 1px;
+		cursor: pointer;
+	}
+
+	footer .ending ul li:first-child:hover {
+		text-decoration: none;
+		cursor: inherit;
+	}
+
+	footer .ending ul li:hover {
+		text-decoration: underline;
+	}
+
+	footer .ending ul li:last-child {
+		display: block;
+	}
+
+	footer .ending ul li:before {
+		content: ".";
+		position: relative;
+		display: inline-block;
+		top: -3px;
+		left: -0.1em;
+		border-color: transparent;
+		border-style: solid;
+		font-size: 15px;
+	}
+
+	footer .ending ul li:first-child:before, footer .ending ul li:nth-child(2):before, footer .ending ul li:last-child:before {
+		display: none;
+	}
+
+	footer .ending ul li:nth-child(11):after {
+		content: ".";
+		position: relative;
+		display: inline-block;
+		top: -3px;
+		left: 0.3em;
+		border-color: transparent;
+		border-style: solid;
+		font-size: 15px;
+	}
+
+	footer .second-end {
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	footer .second-end h3:first-child {
+		float: left;
+		font-family: 'Open Sans', sans-serif;
+		color: #fff;
+		font-size: 14px;
+		font-weight: 400;
+		margin: 10px 0 0 10px;
+	}
+
+	footer .second-end h3:last-child {
+		float: right;
+		font-family: 'Open Sans', sans-serif;
+		color: #fff;
+		font-size: 14px;
+		font-weight: 400;
+		margin: 10px 10px 0 0;
+	}
+
+	footer .second-end .socials {
+		float: right;
+		margin: 7px 5px;
+	}
+
+	footer .second-end .socials img {
+		width: 25px;
+		margin-right: 5px;
+	}
+
+/*------------------------------------- FOOTER PART (END)-------------------------------------*/
